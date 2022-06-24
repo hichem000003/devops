@@ -11,7 +11,7 @@ import tn.esprit.spring.services.IContratService;
 public class RestControlContrat {
 
 	
-	
+	//couplage faible
 	@Autowired
 	IContratService iContratservice;
 	
