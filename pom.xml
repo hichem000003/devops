@@ -59,15 +59,15 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</build>
+	</build> 
 	<distributionManagement>
 		<snapshotRepository>
-			<id>devops</id>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+			<id>deploymentRepo</id>
+			<url>http://localhost:8081/repository/maven-releases/</url>
 		</snapshotRepository>
 		<repository>
-			<id>devops</id>
-			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
+			<id>deploymentRepo</id>
+			<url>http://localhost:8081/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
 </project>
